@@ -1,38 +1,38 @@
 listtype1=[18, 45, 3]
 print (listtype1)
-# #append
+#append
 listtype1.append("JavaScript")
 print(listtype1)
 
-# #insert
+#insert
 listtype1.insert(2, "C#")
 print(listtype1)
 
-# #copy
+#copy
 listtype2 = listtype1.copy()
 print(listtype2)
 
-# #count
+#count
 count_of_python = listtype1.count("Python")
 print("Count of Python in listtype1:", count_of_python)
 
-# #extend
+#extend
 listtype1.extend(["Ruby", "Go"])
 print(listtype1)
 
-# #remove
+#remove
 listtype1.remove("Java")
 print(listtype1)
 
-# #pop
+#pop
 popped_item = listtype1.pop(3)  
 print("Popped item:", popped_item)
 
-# #index
+#index
 index_of_python = listtype1.index("Python")
 print("Index of Python in listtype1:", index_of_python)
 
-# #reverse
+#reverse
 listtype1.reverse()
 print("List after reverse:", listtype1)
 
