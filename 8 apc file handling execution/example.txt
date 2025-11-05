@@ -1,0 +1,2 @@
+Hello, this is a sample file.
+This file is sepcifically made for understanding the concept of file handling

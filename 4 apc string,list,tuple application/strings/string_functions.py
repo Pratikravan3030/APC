@@ -1,0 +1,11 @@
+s='My name is Ishaan Hingway'
+print(s.upper())
+print(s.lower())
+print(s.title())
+print(s.find('Ishaan'))
+print(s.replace('Ishaan', 'Vedant'))
+print(s.index('Hingway'))
+print(s.count('a'))
+print(s.swapcase())
+print(s.split())
+print(s.startswith('name'))

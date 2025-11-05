@@ -1,0 +1,11 @@
+tuple=("Ishaan","DYP",8,8.45,"Kop")
+print(f"Tuple is {tuple}")
+
+print("Count of Ishaan : ",tuple.count("Ishaan"))
+print("Index of DYP : ",tuple.index("DYP"))
+print("Item at index 0 : ",tuple[0]) 
+print("Elements in range 1:3 : ",tuple[1:3])
+print("Elements in range 2: : ",tuple[2:])
+print("Elements on index -1 : ",tuple[-1])
+print("Elements in range -3:-1 : ",tuple[-3:-1])
+print("Elements in range -3: : ",tuple[-3:])
