@@ -1,0 +1,16 @@
+(1)T=0     //solution vector 
+(2)Vs= |V| set of all vertices 
+(3)construct a proprity queue containing all the edges in E in ascending order of the weight
+(4)for each V belongs to V add {V} to Vs
+(5)while(|Vs|>1){
+
+    choose <v,w> from queue having least weight
+    if(<v,w> belongs to 2 different sets in Vs as w1 and w2){
+        replace w1 & w2 in Vs as w1 U w2
+        add(v,w) in T
+    }
+    else if(<v,w> are in same set){
+        it suggests a cycle
+        discard(v,w)
+    }
+}
